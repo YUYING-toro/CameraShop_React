@@ -36,11 +36,13 @@
     transform: rotate(360deg);
   }
 }
-/* customerize */
+/* customerize````````````````````````````````````````````````````````````````````````````````````````````````` */
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap');
 :root{
   /* variable */
   --primary-white: #fff;
+  --btn-yellow: rgb(223, 226, 38);
+  --btn-hover--DarkYellow: rgb(156, 158, 42);
 }
 body{
   font-family: 'Gemunu Libre', sans-serif;
@@ -73,3 +75,47 @@ nav ul li{
 .navbar-nav >li >a:hover{
   border-bottom: 1px solid darkorange;
 }
+
+/* header */
+.header-wraper{
+  position: relative;
+  background: url(p2.jpg) no-repeat;
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  /* opacity: 0.4; */
+}
+  /* 表格絕對置中 但文字緊貼top */
+.header-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* 板內居中  */
+  /* position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+}
+.type-text{
+  margin-top: 10%;
+  font-size: 3rem;
+  color: black;
+}
+.btn-main-offeer{
+  border: 1px solid var(--btn-yellow);
+}
+.btn-main-offeer:hover{
+  border: 1px solid var(--btn)--btn-hover--DarkYellow;
+  /* padding border-radius color margin */
+}
+/* 幾何轉 */
+/* .nav
+.tsparticiles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  z-index: 1;
+} */
