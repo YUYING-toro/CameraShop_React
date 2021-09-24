@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+/* customerize */
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap');
+:root{
+  /* variable */
+  --primary-white: #fff;
+}
+body{
+  font-family: 'Gemunu Libre', sans-serif;
+  color: antiquewhite;
+}
+.logo{
+  width: 16.25 rem;
+}
+a .nav-link{
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  cursor: pointer;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+.navbar-nav >li >a{
+  margin-right: o.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+}
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem;
+}
+.navbar-nav > li >a.active, .navbar-nav >li >a:focus{
+  border-bottom: 1px solid orange;
+}
+.navbar-nav >li >a:hover{
+  border-bottom: 1px solid darkorange;
+}

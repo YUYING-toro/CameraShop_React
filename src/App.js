@@ -1,12 +1,16 @@
-// import logo from './logo.svg';
+
+import { React } from "react";
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import Test from "./Components/test";
+
 
 function App() {
   return (
-    <p className="mt-s">HELLP</p>
-    
+  
+  <Test />
   );
+    
 }
 
 export default App;
